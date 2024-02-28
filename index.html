@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>WeBuild - Bootstrap Coming Soon Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <!-- <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <!-- Template Main CSS File -->
+
+  <style type="text/css">
+    /**
+* Template Name: Mehta Techno, Bangalore India
+* Updated: Jan 29 2024 with Bootstrap v5.3.2
+* Template URL: https://bootstrapmade.com/free-bootstrap-coming-soon-template-countdwon/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+    body {
+      font-family: "Open Sans", sans-serif;
+      color: #444;
+    }
+
+    a {
+      text-decoration: none;
+      color: #4f92af;
+    }
+
+    a:hover {
+      color: #5eb8df;
+      text-decoration: none;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    .font-primary {
+      font-family: "Raleway", sans-serif;
+    }
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+    #header {
+      height: 80px;
+      padding: 20px 0;
+      position: relative;
+      z-index: 10;
+    }
+
+    #header .logo h1 {
+      font-size: 36px;
+      margin: 0;
+      padding: 0;
+      line-height: 1;
+      font-weight: 300;
+      letter-spacing: 3px;
+    }
+
+    #header .logo h1 a,
+    #header .logo h1 a:hover {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    #header .logo img {
+      padding: 0;
+      margin: 0;
+      max-height: 40px;
+    }
+
+    #header .contact-link a {
+      color: #fff;
+      padding-right: 10px;
+      font-size: 12px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    #header .contact-link a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      #header .logo h1 {
+        font-size: 28px;
+        padding: 8px 0;
+      }
+    }
+
+    /* 
+/*--------------------------------------------------------------
+# Hero Section
+# Image linked to https://in.pinterest.com/mehtatechno/underwork/
+# Author : Mehta Techno, Bangalore
+--------------------------------------------------------------*/
+    #hero {
+      width: 100%;
+      height: 90vh;
+      background: url("https://i.pinimg.com/originals/a9/47/5e/a9475e9ef898240852ef989ddc545f7d.jpg") top center;
+      background-size: cover;
+      position: relative;
+      margin-top: -80px;
+      z-index: 9;
+      /* countdown */
+    }
+
+    #hero .hero-container {
+      position: absolute;
+      bottom: 0;
+      top: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      padding: 0 15px;
+    }
+
+    #hero h1 {
+      margin: 0 0 10px 0;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 56px;
+      text-transform: uppercase;
+      color: #fff;
+    }
+
+    #hero h2 {
+      color: #eee;
+      margin-bottom: 30px;
+      font-size: 24px;
+    }
+
+    #hero .countdown {
+      font-size: 48px;
+      font-weight: 300;
+      color: #fff;
+      line-height: 56px;
+      margin: 30px 0 60px 0;
+    }
+
+    @media (max-width: 575px) {
+      #hero .countdown {
+        font-size: 32px;
+        line-height: 38px;
+      }
+    }
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+    section {
+      padding: 60px 0;
+    }
+
+    .section-bg {
+      background-color: #f7fafc;
+    }
+
+    .section-title {
+      text-align: center;
+      padding-bottom: 30px;
+    }
+
+    .section-title h2 {
+      font-size: 32px;
+      font-weight: 300;
+      margin-bottom: 20px;
+      padding-bottom: 0;
+    }
+
+    .section-title p {
+      margin-bottom: 0;
+    }
+
+    @keyframes animate-loading {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    @media (min-width: 768px) {
+      .contact .contact-phone {
+        border-left: 1px solid #ddd;
+        border-right: 1px solid #ddd;
+      }
+
+      .contact .contact-address,
+      .contact .contact-phone,
+      .contact .contact-email {
+        padding: 20px 0;
+      }
+    }
+
+    /*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+    #footer {
+      background: #0d182d;
+      padding: 30px 0;
+      color: #fff;
+      font-size: 14px;
+    }
+
+    #footer .copyright {
+      text-align: center;
+    }
+
+    #footer .credits {
+      padding-top: 10px;
+      text-align: center;
+      font-size: 13px;
+      color: #fff;
+    }
+
+    #footer .credits a {
+      color: #72a8bf;
+    }
+  </style>
+
+
+  <!-- =======================================================
+  * Template Name: Mehta Techno, Bangalore
+  * Updated: Jan 29 2024 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/free-bootstrap-coming-soon-template-countdwon/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+
+<body>
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+
+      <div class="logo">
+        <h1 class="text-light"><a href="index.html"><span>Mehta Techno, Bangalore</span></a></h1>
+
+      </div>
+
+      <div class="contact-link float-right">
+        <a href="#" class="scrollto">Contact Us: pappu@mehtatechno.com</a>
+        <a href="#" class="scrollto">Mob No.: +91-8123382174</a>
+      </div>
+
+    </div>
+  </header><!-- End #header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container">
+      <h1>Under work</h1>
+      <h2>We're working hard to improve our website and we'll ready to launch after</h2>
+      <div class="countdown" data-count="2024/03/10" data-template="%d days %h:%m:%s"></div>
+
+  </section><!-- End Hero -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Mehta Techno, Bangalore</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+
+        Designed by <a href="https://www.mehtatechno.com" target="_blank">Mehta Techno, Bangalore</a>
+      </div>
+    </div>
+  </footer><!-- End #footer -->
+
+
+  <!-- Template Main JS File -->
+  <script>
+    /**
+* Template Name: Mehta Techno
+* Updated: Jan 29 2024 with Bootstrap v5.3.2
+* Template URL: https://bootstrapmade.com/free-bootstrap-coming-soon-template-countdwon/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+    (function () {
+      "use strict";
+
+      /**
+       * Easy selector helper function
+       */
+      const select = (el, all = false) => {
+        el = el.trim()
+        if (all) {
+          return [...document.querySelectorAll(el)]
+        } else {
+          return document.querySelector(el)
+        }
+      }
+
+      /**
+       * Countdown timer
+       */
+
+      let countdown = select('.countdown');
+
+      const countDownDate = function () {
+        let timeleft = new Date(countdown.getAttribute('data-count')).getTime() - new Date().getTime();
+
+        let weeks = Math.floor(timeleft / (1000 * 60 * 60 * 24 * 7));
+        let days = Math.floor(timeleft / (1000 * 60 * 60 * 24));
+        let hours = Math.floor((timeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        let minutes = Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60));
+        let seconds = Math.floor((timeleft % (1000 * 60)) / 1000);
+
+        let output = countdown.getAttribute('data-template');
+        output = output.replace('%w', weeks).replace('%d', days).replace('%h', hours).replace('%m', minutes).replace('%s', seconds);
+        countdown.innerHTML = output;
+      }
+      countDownDate();
+      setInterval(countDownDate, 1000);
+
+    })()
+  </script>
+
+</body>
+
+
+
+</html>
